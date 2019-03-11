@@ -26,4 +26,4 @@ namespace SeleniumDemoApplication.Pages.HomePage
         public void CheckGiftCardDisplayed(IWebDriver driver) => Assert.True(driver.FindElement(HomePageElements.checkgiftCards).Displayed, "Gift cards Title are not displayed.");
        
     }
-}
+}     
